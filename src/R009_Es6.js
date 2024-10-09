@@ -40,7 +40,7 @@ export default R009_Es6;
 /* 
   --- boolean type 문자열 찾는 함수 ---
   startWith() : 변수 앞에서부터
-  endWith() : 위치 상관 없이
+  endsWith() : 위치 상관 없이
   includes() : 변수 뒤에서부터
   일치하는 문자열이 있는지 찾는다.
   
