@@ -6,8 +6,10 @@
     1. render() : return 되는 html 형식의 코드를 화면에 그려주는 함수.
     2. constructor(props) : 가장 먼저 한번만 실행되는 함수. 컴포넌트 내부에서 사용되는 변수 선언 또는 부모 객체에서 전달받은 변수 초기화 시 사용함. super()함수를 가장 위에 호출한다.
     3. getDerivedStateFromProps() : constructor()다음으로 실행된다.
-    4. componentDidMount() : 작성한 함수들 중 가장 마지막으로 실행됨. render()가 html 코드를 그려준 뒤 실행됨. 화면 표시 후 나타나는 이벤트 처리, 초기화 등에 사용됨.
-      - 생성 단계의 생명주기 함수 중 가장 마지막으로 실행됨
+    4. componentDidMount() : 작성한 함수들 중 가장 마지막으로 실행됨. 
+       1. render()가 html 코드를 그려준 뒤 실행됨. 
+       2. 화면 표시 후 나타나는 이벤트 처리, 초기화 등에 사용됨.
+       3. 생성 단계의 생명주기 함수 중 가장 마지막으로 실행되는 함수
   2. 컴포넌트의 변경 함수
     1. shouldComponentUpdate() : props, state의 변경이 감지되면 실행되는 함수.
   
@@ -40,3 +42,9 @@ Variable. 변수 선언하기
 객체 여러개 합치기
   기존 : Oject.assig()함수를 이용.
   Es6 : ...만 이용하면 된다.
+
+
+클래스
+
+화살표 함수
+

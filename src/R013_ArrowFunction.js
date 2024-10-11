@@ -71,3 +71,7 @@ class R013_ArrowFunction extends Component {
 
 export default R013_ArrowFunction;
 
+/* 
+  화살표 함수는 function 대신 => 문자열을 사용하여 return 문자열을 생략 가능함.
+  콜백함수에서 this를 blind 해야 하는 문제도 발생하지 않음.
+*/
