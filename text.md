@@ -53,3 +53,6 @@ forEach문
 map() 함수
 
 jquery
+작업 중인 파일에 npm install jquery 실행해여 설치
+
+props로 자식 컴포넌트에 데이터 전달하기
