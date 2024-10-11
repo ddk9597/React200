@@ -48,3 +48,8 @@ Variable. 변수 선언하기
 
 화살표 함수
 
+forEach문
+
+map() 함수
+
+jquery
